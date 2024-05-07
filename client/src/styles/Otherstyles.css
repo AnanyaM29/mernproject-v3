@@ -485,12 +485,20 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 100px;
 }
 
-.card {
+/*.card {
   border: none;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s;
   text-align: center; /* Center text within the card */
+}*/
+.card {
+  width: 250px; /* Adjust the width as needed */
+  height: 400px; /* Adjust the height as needed */
+  margin-bottom: 20px;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .card:hover {
